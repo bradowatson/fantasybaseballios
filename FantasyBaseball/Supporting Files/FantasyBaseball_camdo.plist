@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Application</key>
+	<array>
+		<dict>
+			<key>profileURL</key>
+			<string>https://dxc.dxi-na1.saas.broadcom.com/api/1/urn:ca:tenantId:5F2BA9BA-2E5A-4288-91D8-776C4238EBEF/urn:ca:appId:FantasyBaseball/profile</string>
+			<key>baseURL</key>
+			<string>https://dxc.dxi-na1.saas.broadcom.com</string>
+			<key>collectorUploadURL</key>
+			<string>https://dxc.dxi-na1.saas.broadcom.com/api/1/urn:ca:tenantId:5F2BA9BA-2E5A-4288-91D8-776C4238EBEF/urn:ca:appId:FantasyBaseball/mobileMetrics</string>
+			<key>keySize</key>
+			<string>2048</string>
+			<key>appId</key>
+			<string>FantasyBaseball</string>
+			<key>tenantID</key>
+			<string>5F2BA9BA-2E5A-4288-91D8-776C4238EBEF</string>
+			<key>appKey</key>
+			<string>df7f1ae0-cab2-11ea-ab2d-49afc692c551</string>
+			<key>cryptoURL</key>
+			<string>https://dxc.dxi-na1.saas.broadcom.com/api/1/urn:ca:tenantId:5F2BA9BA-2E5A-4288-91D8-776C4238EBEF/urn:ca:appId:FantasyBaseball/key</string>
+			<key>encryptionKey</key>
+			<string>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkD+yWGdvbG32fNfBDG9m6BW6Oi25BQ7IrIuQKQi0pdiUeSwtJwNCpt+/fFj2eLSU4La7AWjx8g20p6uIfhPNtIgGsCW9EUGpSzh2or3oA2nvWb9jK3iWSpvcBqVUvu5dUsd7mxSbR/P3Vz9w2rWQJs+qI9Zg683eTcAsu7IuYVA/pMQsP2onbwmGawxG2Nhhd6d8zeeuNSmjghVy2VA6Wq+y+yCcOaABcZreKj3Lx8IESqKEVCNfLBP72p7Wa9Hc8D8GeJEVJ7EOYGDOhUycawrCDskos0894lMbhRdcz0KrxJzwY2OtwFlxoAOnFPj/AkJU+uq5c/CTs+06sCTHCQIDAQAB</string>
+			<key>encryptionKeyVersion</key>
+			<string>1595268019494</string>
+			<key>algorithm</key>
+			<string>RSA</string>
+		</dict>
+	</array>
+</dict>
+</plist>

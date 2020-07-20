@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F875DDDD24C49F16006EF3AF /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F875DDDC24C49F16006EF3AF /* KeychainSwift.swift */; };
+		F875DDE324C6168B006EF3AF /* FantasyBaseball_camdo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F875DDE224C6168A006EF3AF /* FantasyBaseball_camdo.plist */; };
+		F8B3252124B690BD00E58F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3252024B690BD00E58F1F /* AppDelegate.swift */; };
+		F8B3252324B690BD00E58F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3252224B690BD00E58F1F /* SceneDelegate.swift */; };
+		F8B3252524B690BD00E58F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3252424B690BD00E58F1F /* ContentView.swift */; };
+		F8B3252724B690C300E58F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B3252624B690C300E58F1F /* Assets.xcassets */; };
+		F8B3252A24B690C300E58F1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B3252924B690C300E58F1F /* Preview Assets.xcassets */; };
+		F8B3252D24B690C300E58F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B3252B24B690C300E58F1F /* LaunchScreen.storyboard */; };
+		F8B3253824B690C400E58F1F /* FantasyBaseballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3253724B690C400E58F1F /* FantasyBaseballTests.swift */; };
+		F8B3254324B690C400E58F1F /* FantasyBaseballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3254224B690C400E58F1F /* FantasyBaseballUITests.swift */; };
+		F8B3255124B6950B00E58F1F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3255024B6950B00E58F1F /* LoginView.swift */; };
+		F8B3255624B7AC9B00E58F1F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3255524B7AC9B00E58F1F /* Post.swift */; };
+		F8B3256224B94B2500E58F1F /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3256124B94B2500E58F1F /* TeamView.swift */; };
+		F8CA3B7F24BAAF9F004E7F25 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CA3B7E24BAAF9F004E7F25 /* DataLoader.swift */; };
+		F8CA3B8724BAC2F4004E7F25 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CA3B8624BAC2F4004E7F25 /* URLImageView.swift */; };
+		F8CA3B8924BAC3DE004E7F25 /* URLImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CA3B8824BAC3DE004E7F25 /* URLImageModel.swift */; };
+		F8DA5F7824BF82A000139A3A /* LeagueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA5F7724BF82A000139A3A /* LeagueView.swift */; };
+		F8DA5F7A24BFD84600139A3A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA5F7924BFD84600139A3A /* UserSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8B3253424B690C400E58F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B3251524B690BD00E58F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B3251C24B690BD00E58F1F;
+			remoteInfo = FantasyBaseball;
+		};
+		F8B3253F24B690C400E58F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B3251524B690BD00E58F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B3251C24B690BD00E58F1F;
+			remoteInfo = FantasyBaseball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19E921A235CC88915C015D88 /* Pods-FantasyBaseball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyBaseball.debug.xcconfig"; path = "Target Support Files/Pods-FantasyBaseball/Pods-FantasyBaseball.debug.xcconfig"; sourceTree = "<group>"; };
+		21EC1E621D41BB9997E6099B /* Pods-FantasyBaseball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyBaseball.release.xcconfig"; path = "Target Support Files/Pods-FantasyBaseball/Pods-FantasyBaseball.release.xcconfig"; sourceTree = "<group>"; };
+		F76AEFF338E6451384D067D7 /* libPods-FantasyBaseball.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FantasyBaseball.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F875DDDC24C49F16006EF3AF /* KeychainSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwift.swift; sourceTree = "<group>"; };
+		F875DDDE24C4D50E006EF3AF /* FantasyBaseballRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FantasyBaseballRelease.entitlements; sourceTree = "<group>"; };
+		F875DDE224C6168A006EF3AF /* FantasyBaseball_camdo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FantasyBaseball_camdo.plist; sourceTree = "<group>"; };
+		F875DDE424C61758006EF3AF /* FantasyBaseball-Bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FantasyBaseball-Bridging-header.h"; sourceTree = "<group>"; };
+		F8B3251D24B690BD00E58F1F /* FantasyBaseball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyBaseball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B3252024B690BD00E58F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8B3252224B690BD00E58F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8B3252424B690BD00E58F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8B3252624B690C300E58F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8B3252924B690C300E58F1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8B3252C24B690C300E58F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8B3252E24B690C300E58F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B3253324B690C400E58F1F /* FantasyBaseballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyBaseballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B3253724B690C400E58F1F /* FantasyBaseballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyBaseballTests.swift; sourceTree = "<group>"; };
+		F8B3253924B690C400E58F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B3253E24B690C400E58F1F /* FantasyBaseballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyBaseballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B3254224B690C400E58F1F /* FantasyBaseballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyBaseballUITests.swift; sourceTree = "<group>"; };
+		F8B3254424B690C400E58F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B3255024B6950B00E58F1F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F8B3255524B7AC9B00E58F1F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F8B3256124B94B2500E58F1F /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		F8CA3B7E24BAAF9F004E7F25 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		F8CA3B8624BAC2F4004E7F25 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
+		F8CA3B8824BAC3DE004E7F25 /* URLImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageModel.swift; sourceTree = "<group>"; };
+		F8DA5F7724BF82A000139A3A /* LeagueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueView.swift; sourceTree = "<group>"; };
+		F8DA5F7924BFD84600139A3A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8B3251A24B690BD00E58F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B3253024B690C400E58F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B3253B24B690C400E58F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F0C802AE2AF49E6DAC0274 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19E921A235CC88915C015D88 /* Pods-FantasyBaseball.debug.xcconfig */,
+				21EC1E621D41BB9997E6099B /* Pods-FantasyBaseball.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE43858BF63DF1CEFC462979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76AEFF338E6451384D067D7 /* libPods-FantasyBaseball.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F875DDE124C615EB006EF3AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F875DDE424C61758006EF3AF /* FantasyBaseball-Bridging-header.h */,
+				F875DDE224C6168A006EF3AF /* FantasyBaseball_camdo.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8B3251424B690BD00E58F1F = {
+			isa = PBXGroup;
+			children = (
+				F8B3251F24B690BD00E58F1F /* FantasyBaseball */,
+				F8B3253624B690C400E58F1F /* FantasyBaseballTests */,
+				F8B3254124B690C400E58F1F /* FantasyBaseballUITests */,
+				F8B3251E24B690BD00E58F1F /* Products */,
+				09F0C802AE2AF49E6DAC0274 /* Pods */,
+				EE43858BF63DF1CEFC462979 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8B3251E24B690BD00E58F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3251D24B690BD00E58F1F /* FantasyBaseball.app */,
+				F8B3253324B690C400E58F1F /* FantasyBaseballTests.xctest */,
+				F8B3253E24B690C400E58F1F /* FantasyBaseballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8B3251F24B690BD00E58F1F /* FantasyBaseball */ = {
+			isa = PBXGroup;
+			children = (
+				F875DDE124C615EB006EF3AF /* Supporting Files */,
+				F875DDDE24C4D50E006EF3AF /* FantasyBaseballRelease.entitlements */,
+				F8B3256124B94B2500E58F1F /* TeamView.swift */,
+				F8DA5F7724BF82A000139A3A /* LeagueView.swift */,
+				F8B3252024B690BD00E58F1F /* AppDelegate.swift */,
+				F8B3252224B690BD00E58F1F /* SceneDelegate.swift */,
+				F8B3252424B690BD00E58F1F /* ContentView.swift */,
+				F8B3255024B6950B00E58F1F /* LoginView.swift */,
+				F8B3252624B690C300E58F1F /* Assets.xcassets */,
+				F8B3252B24B690C300E58F1F /* LaunchScreen.storyboard */,
+				F8B3252E24B690C300E58F1F /* Info.plist */,
+				F8B3252824B690C300E58F1F /* Preview Content */,
+				F8CA3B7E24BAAF9F004E7F25 /* DataLoader.swift */,
+				F8CA3B8624BAC2F4004E7F25 /* URLImageView.swift */,
+				F8CA3B8824BAC3DE004E7F25 /* URLImageModel.swift */,
+				F8DA5F7924BFD84600139A3A /* UserSettings.swift */,
+				F875DDDC24C49F16006EF3AF /* KeychainSwift.swift */,
+			);
+			path = FantasyBaseball;
+			sourceTree = "<group>";
+		};
+		F8B3252824B690C300E58F1F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3255524B7AC9B00E58F1F /* Post.swift */,
+				F8B3252924B690C300E58F1F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8B3253624B690C400E58F1F /* FantasyBaseballTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3253724B690C400E58F1F /* FantasyBaseballTests.swift */,
+				F8B3253924B690C400E58F1F /* Info.plist */,
+			);
+			path = FantasyBaseballTests;
+			sourceTree = "<group>";
+		};
+		F8B3254124B690C400E58F1F /* FantasyBaseballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3254224B690C400E58F1F /* FantasyBaseballUITests.swift */,
+				F8B3254424B690C400E58F1F /* Info.plist */,
+			);
+			path = FantasyBaseballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8B3251C24B690BD00E58F1F /* FantasyBaseball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B3254724B690C400E58F1F /* Build configuration list for PBXNativeTarget "FantasyBaseball" */;
+			buildPhases = (
+				30DC63DB44D183AAB2D87548 /* [CP] Check Pods Manifest.lock */,
+				F8B3251924B690BD00E58F1F /* Sources */,
+				F8B3251A24B690BD00E58F1F /* Frameworks */,
+				F8B3251B24B690BD00E58F1F /* Resources */,
+				6CE39BB03781C6518F25CC3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasyBaseball;
+			productName = FantasyBaseball;
+			productReference = F8B3251D24B690BD00E58F1F /* FantasyBaseball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8B3253224B690C400E58F1F /* FantasyBaseballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B3254A24B690C400E58F1F /* Build configuration list for PBXNativeTarget "FantasyBaseballTests" */;
+			buildPhases = (
+				F8B3252F24B690C400E58F1F /* Sources */,
+				F8B3253024B690C400E58F1F /* Frameworks */,
+				F8B3253124B690C400E58F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B3253524B690C400E58F1F /* PBXTargetDependency */,
+			);
+			name = FantasyBaseballTests;
+			productName = FantasyBaseballTests;
+			productReference = F8B3253324B690C400E58F1F /* FantasyBaseballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8B3253D24B690C400E58F1F /* FantasyBaseballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B3254D24B690C400E58F1F /* Build configuration list for PBXNativeTarget "FantasyBaseballUITests" */;
+			buildPhases = (
+				F8B3253A24B690C400E58F1F /* Sources */,
+				F8B3253B24B690C400E58F1F /* Frameworks */,
+				F8B3253C24B690C400E58F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B3254024B690C400E58F1F /* PBXTargetDependency */,
+			);
+			name = FantasyBaseballUITests;
+			productName = FantasyBaseballUITests;
+			productReference = F8B3253E24B690C400E58F1F /* FantasyBaseballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8B3251524B690BD00E58F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Bradley Watson";
+				TargetAttributes = {
+					F8B3251C24B690BD00E58F1F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F8B3253224B690C400E58F1F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F8B3251C24B690BD00E58F1F;
+					};
+					F8B3253D24B690C400E58F1F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F8B3251C24B690BD00E58F1F;
+					};
+				};
+			};
+			buildConfigurationList = F8B3251824B690BD00E58F1F /* Build configuration list for PBXProject "FantasyBaseball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8B3251424B690BD00E58F1F;
+			productRefGroup = F8B3251E24B690BD00E58F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8B3251C24B690BD00E58F1F /* FantasyBaseball */,
+				F8B3253224B690C400E58F1F /* FantasyBaseballTests */,
+				F8B3253D24B690C400E58F1F /* FantasyBaseballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8B3251B24B690BD00E58F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B3252D24B690C300E58F1F /* LaunchScreen.storyboard in Resources */,
+				F8B3252A24B690C300E58F1F /* Preview Assets.xcassets in Resources */,
+				F8B3252724B690C300E58F1F /* Assets.xcassets in Resources */,
+				F875DDE324C6168B006EF3AF /* FantasyBaseball_camdo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B3253124B690C400E58F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B3253C24B690C400E58F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30DC63DB44D183AAB2D87548 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasyBaseball-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE39BB03781C6518F25CC3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyBaseball/Pods-FantasyBaseball-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyBaseball/Pods-FantasyBaseball-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasyBaseball/Pods-FantasyBaseball-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8B3251924B690BD00E58F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CA3B8724BAC2F4004E7F25 /* URLImageView.swift in Sources */,
+				F8B3252124B690BD00E58F1F /* AppDelegate.swift in Sources */,
+				F8B3252324B690BD00E58F1F /* SceneDelegate.swift in Sources */,
+				F8DA5F7824BF82A000139A3A /* LeagueView.swift in Sources */,
+				F8B3255624B7AC9B00E58F1F /* Post.swift in Sources */,
+				F8CA3B7F24BAAF9F004E7F25 /* DataLoader.swift in Sources */,
+				F8CA3B8924BAC3DE004E7F25 /* URLImageModel.swift in Sources */,
+				F8B3255124B6950B00E58F1F /* LoginView.swift in Sources */,
+				F8B3252524B690BD00E58F1F /* ContentView.swift in Sources */,
+				F8B3256224B94B2500E58F1F /* TeamView.swift in Sources */,
+				F8DA5F7A24BFD84600139A3A /* UserSettings.swift in Sources */,
+				F875DDDD24C49F16006EF3AF /* KeychainSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B3252F24B690C400E58F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B3253824B690C400E58F1F /* FantasyBaseballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B3253A24B690C400E58F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B3254324B690C400E58F1F /* FantasyBaseballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8B3253524B690C400E58F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B3251C24B690BD00E58F1F /* FantasyBaseball */;
+			targetProxy = F8B3253424B690C400E58F1F /* PBXContainerItemProxy */;
+		};
+		F8B3254024B690C400E58F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B3251C24B690BD00E58F1F /* FantasyBaseball */;
+			targetProxy = F8B3253F24B690C400E58F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8B3252B24B690C300E58F1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8B3252C24B690C300E58F1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8B3254524B690C400E58F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8B3254624B690C400E58F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8B3254824B690C400E58F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E921A235CC88915C015D88 /* Pods-FantasyBaseball.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FantasyBaseball/FantasyBaseball.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FantasyBaseball/Preview Content\"";
+				DEVELOPMENT_TEAM = 83GXZHXT6G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FantasyBaseball/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Watson.FantasyBaseball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8B3254924B690C400E58F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EC1E621D41BB9997E6099B /* Pods-FantasyBaseball.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FantasyBaseball/FantasyBaseballRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FantasyBaseball/Preview Content\"";
+				DEVELOPMENT_TEAM = 83GXZHXT6G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FantasyBaseball/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Watson.FantasyBaseball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8B3254B24B690C400E58F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83GXZHXT6G;
+				INFOPLIST_FILE = FantasyBaseballTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Watson.FantasyBaseballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyBaseball.app/FantasyBaseball";
+			};
+			name = Debug;
+		};
+		F8B3254C24B690C400E58F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83GXZHXT6G;
+				INFOPLIST_FILE = FantasyBaseballTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Watson.FantasyBaseballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyBaseball.app/FantasyBaseball";
+			};
+			name = Release;
+		};
+		F8B3254E24B690C400E58F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83GXZHXT6G;
+				INFOPLIST_FILE = FantasyBaseballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Watson.FantasyBaseballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyBaseball;
+			};
+			name = Debug;
+		};
+		F8B3254F24B690C400E58F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83GXZHXT6G;
+				INFOPLIST_FILE = FantasyBaseballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Watson.FantasyBaseballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyBaseball;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8B3251824B690BD00E58F1F /* Build configuration list for PBXProject "FantasyBaseball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B3254524B690C400E58F1F /* Debug */,
+				F8B3254624B690C400E58F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B3254724B690C400E58F1F /* Build configuration list for PBXNativeTarget "FantasyBaseball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B3254824B690C400E58F1F /* Debug */,
+				F8B3254924B690C400E58F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B3254A24B690C400E58F1F /* Build configuration list for PBXNativeTarget "FantasyBaseballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B3254B24B690C400E58F1F /* Debug */,
+				F8B3254C24B690C400E58F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B3254D24B690C400E58F1F /* Build configuration list for PBXNativeTarget "FantasyBaseballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B3254E24B690C400E58F1F /* Debug */,
+				F8B3254F24B690C400E58F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8B3251524B690BD00E58F1F /* Project object */;
+}
